@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_view_option_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        tools:src="@drawable/ic_message_icon"
+        tools:tint="@color/colorMediaOptions"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/image_view_option_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        tools:textColor="@color/colorMediaOptions"
+        android:lines="1"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/image_view_option_icon"
+        app:layout_constraintStart_toStartOf="@+id/image_view_option_icon"
+        app:layout_constraintEnd_toEndOf="@+id/image_view_option_icon"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
