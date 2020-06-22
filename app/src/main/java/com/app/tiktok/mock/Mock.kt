@@ -9,13 +9,13 @@ import javax.inject.Inject
 
 
 class Mock @Inject constructor(private val context: Context) {
-    fun loadMockData(): MutableList<StoriesDataModel>? {
+    fun loadMockData(): ArrayList<StoriesDataModel>? {
         val mockData = context.resources.openRawResource(R.raw.stories_data)
         val dataString = mockData.bufferedReader().readText()
 
         val gson = Gson()
-        val storiesType = object : TypeToken<MutableList<StoriesDataModel>>() {}.type
-        val storiesDataModelList = gson.fromJson<MutableList<StoriesDataModel>>(dataString, storiesType)
+        val storiesType = object : TypeToken<ArrayList<StoriesDataModel>>() {}.type
+        val storiesDataModelList = gson.fromJson<ArrayList<StoriesDataModel>>(dataString, storiesType)
 
         return storiesDataModelList
     }

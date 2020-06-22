@@ -14,7 +14,7 @@ import com.app.tiktok.utils.*
 import com.google.android.exoplayer2.ExoPlayerFactory
 import com.google.android.exoplayer2.Player
 import com.google.android.exoplayer2.SimpleExoPlayer
-import com.google.android.exoplayer2.source.hls.HlsMediaSource
+import com.google.android.exoplayer2.source.ProgressiveMediaSource
 import com.google.android.exoplayer2.ui.PlayerView
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory
 import com.google.android.exoplayer2.upstream.cache.CacheDataSourceFactory
@@ -112,7 +112,8 @@ class StoryViewFragment : Fragment(R.layout.fragment_story_view) {
         logError("prepareMedia linkUrl: $linkUrl")
 
         val uri = Uri.parse(linkUrl)
-        val mediaSource = HlsMediaSource.Factory(cacheDataSourceFactory).createMediaSource(uri)
+
+        val mediaSource = ProgressiveMediaSource.Factory(cacheDataSourceFactory).createMediaSource(uri)
 
         simplePlayer?.prepare(mediaSource, true, true)
         simplePlayer?.repeatMode = Player.REPEAT_MODE_ONE
