@@ -10,10 +10,7 @@ import com.app.tiktok.R
 import com.app.tiktok.app.MyApp
 import com.app.tiktok.model.StoriesDataModel
 import com.app.tiktok.ui.main.viewmodel.MainViewModel
-import com.app.tiktok.utils.Constants
-import com.app.tiktok.utils.loadCenterCropImageFromUrl
-import com.app.tiktok.utils.logError
-import com.app.tiktok.utils.setTextOrHide
+import com.app.tiktok.utils.*
 import com.google.android.exoplayer2.ExoPlayerFactory
 import com.google.android.exoplayer2.Player
 import com.google.android.exoplayer2.SimpleExoPlayer
@@ -52,12 +49,12 @@ class StoryViewFragment : Fragment(R.layout.fragment_story_view) {
     }
 
     private fun setData() {
-        text_view_account_handle.setTextOrHide(value = storiesDataModel?.storyUserName)
+        text_view_account_handle.setTextOrHide(value = storiesDataModel?.userName)
         text_view_video_description.setTextOrHide(value = storiesDataModel?.storyDescription)
         text_view_music_title.setTextOrHide(value = storiesDataModel?.musicCoverTitle)
 
-        image_view_option_comment_title?.text = storiesDataModel?.commentsCount?.toString()
-        image_view_option_like_title?.text = storiesDataModel?.likesCount?.toString()
+        image_view_option_comment_title?.text = storiesDataModel?.commentsCount?.formatNumberAsReadableFormat()
+        image_view_option_like_title?.text = storiesDataModel?.likesCount?.formatNumberAsReadableFormat()
 
         image_view_profile_pic?.loadCenterCropImageFromUrl(storiesDataModel?.userProfilePicUrl)
 

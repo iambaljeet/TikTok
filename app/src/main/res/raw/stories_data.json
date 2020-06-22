@@ -1,0 +1,72 @@
+[
+  {
+    "storyId" : 1,
+    "storyUrl" : "https://res.cloudinary.com/mydatacloud/video/upload/v1592819413/stories/video_azmmil.m3u8",
+    "storyThumbUrl" : "https://res.cloudinary.com/mydatacloud/video/upload/v1592819413/stories/video_azmmil.jpg",
+    "storyDescription" : "#besafe #covid-19 #corona #motivation #life #lockdown",
+    "musicCoverTitle" : "God's Plan",
+    "musicCoverImageLink" : null,
+    "userId" : 1,
+    "userProfilePicUrl" : "https://res.cloudinary.com/mydatacloud/image/upload/v1592823557/profiles/user_3_dzxh4b.jpg",
+    "userName" : "@Sherlyn",
+    "likesCount" : 500,
+    "commentsCount" : 1000,
+    "contentWarning" : null
+  },
+  {
+    "storyId" : 2,
+    "storyUrl" : "https://res.cloudinary.com/mydatacloud/video/upload/v1592819403/stories/video_2_ouaa21.m3u8",
+    "storyThumbUrl" : "https://res.cloudinary.com/mydatacloud/video/upload/v1592819403/stories/video_2_ouaa21.jpg",
+    "storyDescription" : "#besafe #covid-19 #corona #motivation #life #lockdown",
+    "musicCoverTitle" : "God's Plan",
+    "musicCoverImageLink" : null,
+    "userId" : 1,
+    "userProfilePicUrl" : "https://res.cloudinary.com/mydatacloud/image/upload/v1592823557/profiles/user_4_lqc8yg.jpg",
+    "userName" : "@Sophia",
+    "likesCount" : 20,
+    "commentsCount" : 1005,
+    "contentWarning" : null
+  },
+  {
+    "storyId" : 3,
+    "storyUrl" : "https://res.cloudinary.com/mydatacloud/video/upload/v1592819404/stories/production_ID-3779801_rkecvx.m3u8",
+    "storyThumbUrl" : "https://res.cloudinary.com/mydatacloud/video/upload/v1592819404/stories/production_ID-3779801_rkecvx.jpg",
+    "storyDescription" : "#besafe #covid-19 #corona #motivation #life #lockdown",
+    "musicCoverTitle" : "God's Plan",
+    "musicCoverImageLink" : null,
+    "userId" : 2,
+    "userProfilePicUrl" : "https://res.cloudinary.com/mydatacloud/image/upload/v1592823557/profiles/user_5_d9jtkv.jpg",
+    "userName" : "@Henry",
+    "likesCount" : 9777774,
+    "commentsCount" : 1500000,
+    "contentWarning" : null
+  },
+  {
+    "storyId" : 4,
+    "storyUrl" : "https://res.cloudinary.com/mydatacloud/video/upload/v1592819402/stories/Pexels_Videos_1570919_k0pbru.m3u8",
+    "storyThumbUrl" : "https://res.cloudinary.com/mydatacloud/video/upload/v1592819402/stories/Pexels_Videos_1570919_k0pbru.jpg",
+    "storyDescription" : "#besafe #covid-19 #corona #motivation #life #lockdown",
+    "musicCoverTitle" : "God's Plan",
+    "musicCoverImageLink" : null,
+    "userId" : 3,
+    "userProfilePicUrl" : "https://res.cloudinary.com/mydatacloud/image/upload/v1592823557/profiles/user_1_acu6nw.jpg",
+    "userName" : "@Chris",
+    "likesCount" : 888000,
+    "commentsCount" : 5544,
+    "contentWarning" : null
+  },
+  {
+    "storyId" : 5,
+    "storyUrl" : "https://res.cloudinary.com/mydatacloud/video/upload/v1592819402/stories/Pexels_Videos_2035391_chghyf.m3u8",
+    "storyThumbUrl" : "https://res.cloudinary.com/mydatacloud/video/upload/v1592819402/stories/Pexels_Videos_2035391_chghyf.jpg",
+    "storyDescription" : "#besafe #covid-19 #corona #motivation #life #lockdown",
+    "musicCoverTitle" : "God's Plan",
+    "musicCoverImageLink" : null,
+    "userId" : 4,
+    "userProfilePicUrl" : "https://res.cloudinary.com/mydatacloud/image/upload/v1592823557/profiles/user_2_dzncxa.jpg",
+    "userName" : "@Stark",
+    "likesCount" : 220,
+    "commentsCount" : 25,
+    "contentWarning" : null
+  }
+]

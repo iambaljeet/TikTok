@@ -21,3 +21,7 @@ fun <T>Class<in T>.logError(message: String) {
 fun Any.logError(message: String) {
     Log.e(this::class.java.name, message)
 }
+
+fun Long.formatNumberAsReadableFormat(): String {
+    return Utility.formatNumberAsNumberFormat(this)
+}
