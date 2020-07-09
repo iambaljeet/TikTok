@@ -17,7 +17,6 @@ fun <T>Class<in T>.logError(message: String) {
     Log.e(this::class.java.name, message)
 }
 
-
 fun Any.logError(message: String) {
     Log.e(this::class.java.name, message)
 }
